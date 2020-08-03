@@ -6,9 +6,42 @@ html, body {
 body {
 	background-color: lightgrey;
 }
+table {
+	box-shadow: 0 0 2px black;
+	margin:10px auto;
+}
+
+td {
+	width: 1vw;
+	height: 1vw;
+	text-align: center;
+	background-color: white;
+	box-shadow: 0 0 2px grey;
+}
 
 /* CLASS */
-
+.startPage {
+	opacity: 0;
+}
+.startPage_full {
+	opacity: 1;	
+}
+.gameChoice {
+	display: inline-grid;
+	background-color: slategrey;
+	text-align: center;
+	margin-top: 5vh;
+	height: 90vh;
+}
 /* ID */
 
 /* Multi */
+.startPage, .startPage_full {
+	transition: 1s all;
+	text-align: center;
+}
+.startPage div button, .startPage_full div button {
+	font-size: 2rem;
+	width: 40vw;
+	margin: 1em;
+}
