@@ -12,4 +12,4 @@
 - [ ] Responsive CSS
 
 Progress 
-![Progress](https://progress-bar.dev/6/)
+[Progress](https://progress-bar.dev/6/)
