@@ -10,4 +10,4 @@
 - [x] 15x15 tile board(choice)
 - [x] 19x19 tile board(choice)
 - [ ] Responsive CSS
-- ![Progress](https://progress-bar.dev/6/)
+Progress ![Progress](https://progress-bar.dev/6/)
