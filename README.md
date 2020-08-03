@@ -3,9 +3,15 @@
 
 <p>Things to consider:</p>
 
-- [ ] 5 tile win(up, down, diag)
-- [ ] win detection
-- [ ] user indicators
-- [ ] clean, documentented, DRY code
-- [ ] 15x15 tile board(choice)
-- [ ] 19x19 tile board(choice)
+## Status
+
+
+[ ] 5 tile win(up, down, diag)
+[ ] win detection
+[ ] user indicators
+[ ] clean, documentented, DRY code
+[x] 15x15 tile board(choice)
+[x] 19x19 tile board(choice)
+![Progress](https://progress-bar.dev/6/)
+
+[Back to top](#gomoku)
