@@ -7,16 +7,26 @@ body {
 	background-color: lightgrey;
 }
 table {
-	box-shadow: 0 0 2px black;
 	margin:10px auto;
+	
+	background-position: center;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	padding: .1em;
+	border:2px solid black;
+	cursor: pointer;
 }
 
 td {
-	width: .5em;
-	height: .5em;
+	font-size: .7em;
 	text-align: center;
-	background-color: white;
-	box-shadow: 0 0 2px grey;
+	background-color: transparent;
+	opacity: 0;
+	cursor: pointer;
+}
+
+td:hover {
+	opacity: 1; 
 }
 
 /* CLASS */
@@ -34,7 +44,9 @@ td {
 	height: 40vh;
 }
 /* ID */
-
+#board19 {
+	background-image: url("../assets/board.png");
+}
 /* Multi */
 .startPage, .startPage_full {
 	transition: 1s all;

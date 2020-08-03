@@ -34,13 +34,13 @@ myUI = {
     },
     createBoard: function(c){
     	var tb = createEle("table");
-
+    	tb.id = "board" + c;
     	for (var i = 0; i < c; i++) {
     		var tr = createEle("tr");
 
     		for (var k = 0; k < c; k++) {
     			var td = createEle("td");
-    			
+
     			td.innerHTML = "⚫";
 
     			tr.append(td);
